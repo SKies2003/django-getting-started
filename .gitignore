@@ -1,0 +1,13 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore environment folders (Conda or venv)
+env/
+django_env/
+
+# Ignore Django SQLite DB (if you use it)
+db.sqlite3
+
+# VS Code settings (optional)
+.vscode/
